@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hello Adonis</title>
+  {{ style('style') }}
+
+  @!section('extracss')
+
+  <title>
+    @!section('title')
+  </title>
+</head>
+<body>
+  <header>
+    <a href="../../../public/" id="logo">Ryan Hansen</a>
+    <nav>
+      <ul>
+        <li><a href="/setup">Setup</a></li>
+        <li><a href="/tf">TF</a></li>
+        <li><a href="/gl">GL</a></li>
+        <li><a href="/nextsteps">Next Steps</a></li>
+        <li><a href="/">Home</a></li>
+      </ul>
+
+
+    </nav>
+
+  </header>
+
+<div class="container">
+  @!section('content')
+
+</div>
+
+</body>
+</html>
